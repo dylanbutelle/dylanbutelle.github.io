@@ -1,0 +1,330 @@
+/**
+ * General reset
+ ******************************************************************************/
+
+h1, h2, h3, h4, h5, h6, p, pre, ul, .h2, .h3, .h4 {
+    margin: 0;
+}
+
+/**
+ * General settings
+ ******************************************************************************/
+
+body {
+    color: #4b4b4b;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 20px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+h1, h2 {
+    color: #161e2e;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+code {
+    color: #42389d;
+}
+
+article a {
+    border-bottom: 2px solid #c3ddfd;
+    color: inherit;
+}
+
+article a:hover {
+    background-color: #f4f5f7;
+    border-bottom-color: #a4cafe;
+    color: inherit;
+    text-decoration: none;
+}
+
+/**
+ * Tweaks
+ ******************************************************************************/
+
+.badge-pill {
+    background-color: #e5edff;
+    color: #42389d;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/**
+ * Cards
+ ******************************************************************************/
+
+.card-columns {
+    column-count: 1;
+}
+
+.card {
+    padding: 16px;
+    position: unset;
+    margin-bottom: 16px;
+}
+
+.card:hover {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .077);
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+.card table {
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.card th {
+    font-weight: normal;
+    width: 128px;
+}
+
+/**
+ * Main navigation
+ ******************************************************************************/
+
+#nav-main {
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 32px;
+    min-height: 64px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#nav-main .nav-item {
+    padding-right: 28px;
+}
+
+#nav-main .nav-link {
+    border-bottom: 2px solid transparent;
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+    height: 64px;
+    line-height: 64px;
+    padding: 0 4px;
+    transition: all .2s ease;
+}
+
+#nav-main .nav-link.active {
+    border-bottom-color: #3f83f8;
+}
+
+#nav-main .nav-link:hover {
+    border-bottom-color: #d2d6dc;
+    color: #374151;
+}
+
+#nav-main .navbar-toggler {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/**
+ * Home
+ ******************************************************************************/
+
+#home {
+    padding-top: 64px;
+    padding-bottom: 160px;
+}
+
+#home h1,
+#home h2 {
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#home h2 {
+    color: #122f6d;
+}
+
+#home h3 {
+    color: #6b7280;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+/**
+ * About
+ ******************************************************************************/
+
+#about-intro p {
+    margin-top: 16px;
+}
+
+#about-intro img {
+    filter: brightness(1.1);
+}
+
+#about-intro-text {
+    padding-bottom: 64px;
+}
+
+#about-intro-image {
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#about-content {
+    background-color: #f9fafb;
+    border-top: 1px solid #dee2e6;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+/**
+ * Portfolio
+ ******************************************************************************/
+
+#portfolio-intro {
+    padding-bottom: 64px;
+}
+
+#portfolio-content {
+    background-color: #f9fafb;
+    border-top: 1px solid #dee2e6;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+
+
+/**
+ * Contact
+ ******************************************************************************/
+
+#contact {
+    padding-bottom: 64px;
+}
+
+/**
+ * Footer
+ ******************************************************************************/
+
+footer {
+    background-color: #252f3f;
+    color: #9fa6b2;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+footer h5 {
+    font-size: 14px;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+footer li {
+    margin-top: 12px;
+}
+
+footer a {
+    color: #d2d6dc;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .copyrights {
+    border-top: 1px solid #374151;
+    margin-top: 32px;
+    padding-top: 24px;
+}
+
+footer .social a {
+    font-size: 20px;
+    padding-left: 16px;
+}
+
+/**
+ * Media queries
+ ******************************************************************************/
+
+@media (min-width: 768px) {
+    #home {
+        background-position-x: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .card-columns {
+        column-count: 2;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    #home h1,
+    #home h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    #home {
+        background-position-y: -32px;
+        background-size: auto;
+    }
+
+}
