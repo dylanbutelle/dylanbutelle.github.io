@@ -223,5 +223,14 @@ footer {
     body{
         width:100%;
     }
+    .table{
+        font-size: 30px;
+    }
+    .table th{
+        padding-right:20px;
+    }
+    .card th,.card td{
+        font-size:25px;
+    }
 }
 
