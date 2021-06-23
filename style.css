@@ -11,6 +11,9 @@ body {
     font-size: 20px;
     width:70%;
     margin:0 auto;
+    border-right:1px solid #161e2e;
+    border-left: 1px solid #161e2e;
+
 }
 a{
     text-decoration: none;
@@ -125,6 +128,7 @@ article a:hover {
 #home {
     padding-top: 64px;
     padding-bottom: 160px;
+    padding-left:10px;
 }
 
 #home h1, #home h2 {
@@ -159,6 +163,7 @@ article a:hover {
 
 #about-intro-text {
     padding-bottom: 64px;
+    padding-left:10px;
 }
 
 #about-intro-image {
