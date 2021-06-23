@@ -190,29 +190,6 @@ footer {
     padding-bottom: 64px;
 }
 
-@media (min-width: 720px) {
-    #home {
-        background-position-x: right;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
-
-    .card-columns {
-        column-count: 2;
-    }
-
-}
-
-@media (min-width: 992px) {
-
-    #home h1,
-    #home h2 {
-        font-size: 60px;
-        line-height: 60px;
-    }
-
-}
 
 @media (max-width: 1200px) {
 
@@ -231,6 +208,10 @@ footer {
     }
     .card th,.card td{
         font-size:25px;
+    }
+    footer p{
+        font-size:15px;
+        text-align:center;
     }
 }
 
