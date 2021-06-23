@@ -9,17 +9,29 @@ h1, h2, h3, h4, h5, h6, p, pre, ul, .h2, .h3, .h4 {
 /**
  * General settings
  ******************************************************************************/
-
+.container table{
+    padding-bottom: 50px;
+}
 body {
     color: #4b4b4b;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     font-size: 20px;
+    width:70%;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+
+}
+#about-content h2{
+    text-decoration: underline;
+    text-decoration-color: #a4cafe;
+    padding-left:10px;
 }
 
-iframe {
-    max-width: 100%;
+#home span{
+    color: #122f6d;
 }
-
 h1, h2 {
     color: #161e2e;
     font-weight: 800;
@@ -47,13 +59,12 @@ p {
     margin-bottom: 16px;
 }
 
-code {
-    color: #42389d;
-}
+
 
 article a {
     border-bottom: 2px solid #c3ddfd;
     color: inherit;
+
 }
 
 article a:hover {
@@ -63,20 +74,15 @@ article a:hover {
     text-decoration: none;
 }
 
-/**
- * Tweaks
- ******************************************************************************/
-
-.badge-pill {
+.badge{
     background-color: #e5edff;
     color: #42389d;
     font-size: 14px;
     font-weight: 500;
+    border-radius: 4px;
+    padding: 0 4px 0 4px;
 }
 
-/**
- * Cards
- ******************************************************************************/
 
 .card-columns {
     column-count: 1;
@@ -86,6 +92,9 @@ article a:hover {
     padding: 16px;
     position: unset;
     margin-bottom: 16px;
+    background-color:white;
+    border-bottom: 1px solid #6b7280;
+    border-top: 1px solid #6b7280;
 }
 
 .card:hover {
@@ -119,58 +128,13 @@ article a:hover {
     width: 128px;
 }
 
-/**
- * Main navigation
- ******************************************************************************/
-
-#nav-main {
-    border-bottom: 1px solid #dee2e6;
-    margin-bottom: 32px;
-    min-height: 64px;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-#nav-main .nav-item {
-    padding-right: 28px;
-}
-
-#nav-main .nav-link {
-    border-bottom: 2px solid transparent;
-    color: #6b7280;
-    font-size: 14px;
-    font-weight: 500;
-    height: 64px;
-    line-height: 64px;
-    padding: 0 4px;
-    transition: all .2s ease;
-}
-
-#nav-main .nav-link.active {
-    border-bottom-color: #3f83f8;
-}
-
-#nav-main .nav-link:hover {
-    border-bottom-color: #d2d6dc;
-    color: #374151;
-}
-
-#nav-main .navbar-toggler {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
-/**
- * Home
- ******************************************************************************/
 
 #home {
     padding-top: 64px;
     padding-bottom: 160px;
 }
 
-#home h1,
-#home h2 {
+#home h1, #home h2 {
     font-weight: 800;
     font-size: 48px;
     letter-spacing: -1px;
@@ -191,9 +155,6 @@ article a:hover {
     padding-top: 16px;
 }
 
-/**
- * About
- ******************************************************************************/
 
 #about-intro p {
     margin-top: 16px;
@@ -219,35 +180,10 @@ article a:hover {
     padding-bottom: 64px;
 }
 
-/**
- * Portfolio
- ******************************************************************************/
-
-#portfolio-intro {
-    padding-bottom: 64px;
+footer p{
+    margin: 0 auto;
+    padding-left:20px;
 }
-
-#portfolio-content {
-    background-color: #f9fafb;
-    border-top: 1px solid #dee2e6;
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-
-
-/**
- * Contact
- ******************************************************************************/
-
-#contact {
-    padding-bottom: 64px;
-}
-
-/**
- * Footer
- ******************************************************************************/
-
 footer {
     background-color: #252f3f;
     color: #9fa6b2;
@@ -256,75 +192,4 @@ footer {
     padding-bottom: 64px;
 }
 
-footer h5 {
-    font-size: 14px;
-    margin-top: 24px;
-    text-transform: uppercase;
-}
 
-footer ul {
-    list-style: none;
-    margin-top: 20px;
-    padding-left: 0;
-}
-
-footer li {
-    margin-top: 12px;
-}
-
-footer a {
-    color: #d2d6dc;
-}
-
-footer a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer .copyrights {
-    border-top: 1px solid #374151;
-    margin-top: 32px;
-    padding-top: 24px;
-}
-
-footer .social a {
-    font-size: 20px;
-    padding-left: 16px;
-}
-
-/**
- * Media queries
- ******************************************************************************/
-
-@media (min-width: 768px) {
-    #home {
-        background-position-x: right;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
-
-    .card-columns {
-        column-count: 2;
-    }
-
-}
-
-@media (min-width: 992px) {
-
-    #home h1,
-    #home h2 {
-        font-size: 60px;
-        line-height: 60px;
-    }
-
-}
-
-@media (min-width: 1200px) {
-
-    #home {
-        background-position-y: -32px;
-        background-size: auto;
-    }
-
-}
