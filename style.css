@@ -190,7 +190,7 @@ footer {
     padding-bottom: 64px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     #home {
         background-position-x: right;
         background-repeat: no-repeat;
@@ -214,12 +214,14 @@ footer {
 
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 
     #home {
         background-position-y: -32px;
         background-size: auto;
     }
-
+    body{
+        width:100%;
+    }
 }
 
