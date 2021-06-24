@@ -13,7 +13,7 @@ body {
     margin:0 auto;
     border-right:1px solid #161e2e;
     border-left: 1px solid #161e2e;
-
+    position:relative;
 }
 a{
     text-decoration: none;
@@ -189,14 +189,17 @@ footer {
     padding-top: 40px;
     padding-bottom: 64px;
 }
+#button{
+    position:fixed;
+    top:90%;
+    left:80%;
 
-
+}
+#button svg{
+    width:50px;
+    height: 50px;
+}
 @media (max-width: 1200px) {
-
-    #home {
-        background-position-y: -32px;
-        background-size: auto;
-    }
     body{
         width:100%;
     }
@@ -212,6 +215,14 @@ footer {
     footer p{
         font-size:30px;
         text-align:center;
+    }
+    #button{
+        left:85%;
+        top:94%;
+    }
+    #button svg{
+        width:90px;
+        height: 90px;
     }
 }
 
