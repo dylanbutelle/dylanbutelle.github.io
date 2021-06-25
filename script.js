@@ -4,5 +4,4 @@ document.addEventListener("DOMContentLoaded",function(){
     darkMode.addEventListener("click",function(){
         body.classList.toggle("dark");
     })
-
 })
