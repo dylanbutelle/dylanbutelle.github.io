@@ -245,6 +245,11 @@ footer {
     background-color: white;
     color:#04091c;
 }
+#me{
+    position: absolute;
+    right: 15px;
+    transform: rotate(-90deg);
+}
 @media (max-width: 1100px) {
     body{
         width:100%;
@@ -270,6 +275,10 @@ footer {
         width:80px;
         height: 80px;
         color:black;
+    }
+    #me{
+        height: 300px;
+        width: 250px;
     }
 }
 
