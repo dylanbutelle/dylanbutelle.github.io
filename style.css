@@ -1,4 +1,4 @@
-@media only screen and (min-width:321px) and (max-width:799px) {
+@media only screen and (min-width:320px) and (max-width:414px) {
     h1, h2, h3, h4, h5, h6, p, pre, ul, .h2, .h3, .h4 {
         margin: 0;
     }
@@ -270,7 +270,7 @@
 }
 
 
-@media only screen and (min-width: 800px) and (max-width: 966px){
+@media only screen and (min-width: 414px) and (max-width: 1024px){
     h1, h2, h3, h4, h5, h6, p, pre, ul, .h2, .h3, .h4 {
         margin: 0;
     }
@@ -541,7 +541,7 @@
         text-align:center;
     }
 }
-@media only screen and (min-width:966px) {
+@media only screen and (min-width:1024px) {
     h1, h2, h3, h4, h5, h6, p, pre, ul, .h2, .h3, .h4 {
         margin: 0;
     }
