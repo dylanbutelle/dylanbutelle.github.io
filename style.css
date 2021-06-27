@@ -195,12 +195,12 @@
     #button{
         position:fixed;
         top:90%;
-        left:69%;
+        left:80%;
 
     }
     #button svg{
-        width:70px;
-        height: 70px;
+        width:50px;
+        height: 50px;
         background-color: white;
         border-radius: 40px;
         color:black;
@@ -250,12 +250,14 @@
         background-color: white;
         color:#04091c;
     }
+
     #me{
         position: absolute;
         right: 15px;
         transform: rotate(-90deg);
         height: 200px;
         width: 170px;
+
     }
     .table{
         font-size: 20px;
@@ -267,7 +269,7 @@
         font-size:15px;
     }
     footer p{
-        font-size:30px;
+        font-size:20px;
         text-align:center;
     }
 }
@@ -471,8 +473,8 @@
 
     }
     #button svg{
-        width:80px;
-        height: 80px;
+        width:60px;
+        height: 60px;
         color:black;
         background-color: white;
         border-radius: 40px;
