@@ -2,7 +2,10 @@
     h1, h2, h3, h4, h5, h6, p, pre, ul, .h2, .h3, .h4 {
         margin: 0;
     }
-
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .container table{
         padding-bottom: 50px;
     }
@@ -255,13 +258,13 @@
         width: 170px;
     }
     .table{
-        font-size: 30px;
+        font-size: 20px;
     }
     .table th{
         padding-right:20px;
     }
     .card th,.card td{
-        font-size:25px;
+        font-size:15px;
     }
     footer p{
         font-size:30px;
