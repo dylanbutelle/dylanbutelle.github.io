@@ -823,7 +823,7 @@
 }
 @keyframes slidein {
     from {
-        right: -20%;
+        right: -200px;
     }
     to {
         right: 15px;
