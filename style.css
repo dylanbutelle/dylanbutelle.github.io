@@ -1,4 +1,4 @@
-@media only screen and (min-width:320px) and (max-width:414px) {
+@media only screen and (min-width:0px) and (max-width:414px) {
     h1, h2, h3, h4, h5, h6, p, pre, ul, .h2, .h3, .h4 {
         margin: 0;
     }
@@ -823,7 +823,7 @@
 }
 @keyframes slidein {
     from {
-        right: -300px;
+        right: -20%;
     }
     to {
         right: 15px;
