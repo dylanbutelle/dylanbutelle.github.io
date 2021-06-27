@@ -257,7 +257,7 @@
         transform: rotate(-90deg);
         height: 200px;
         width: 170px;
-
+        animation: 2s slidein;
     }
     .table{
         font-size: 20px;
@@ -531,6 +531,7 @@
         transform: rotate(-90deg);
         height: 200px;
         width: 170px;
+        animation: 2s slidein;
     }
     .table{
         font-size: 20px;
@@ -750,6 +751,7 @@
         background-color: white;
         border-radius: 40px;
 
+
     }
     #button:hover{
         cursor: pointer;
@@ -802,6 +804,7 @@
         transform: rotate(-90deg);
         height: 200px;
         width: 170px;
+        animation: 2s slidein;
     }
     .table{
         font-size: 20px;
@@ -815,6 +818,16 @@
     footer p{
         font-size:20px;
         text-align:center;
+
+    }
+}
+@keyframes slidein {
+    from {
+        right: -300px;
+    }
+    to {
+        right: 15px;
+
     }
 }
 
