@@ -208,7 +208,10 @@
     #button:hover{
         cursor: pointer;
     }
+    .dark #me{
 
+        filter:drop-shadow(5px 7px 7px #666666);
+    }
     .dark{
         background-color: #04091c;
     }
@@ -258,6 +261,7 @@
         height: 200px;
         width: 170px;
         animation: 2s slidein;
+        filter:drop-shadow(5px 7px 7px #181f1f);
     }
     .table{
         font-size: 20px;
@@ -483,7 +487,10 @@
     #button:hover{
         cursor: pointer;
     }
+    .dark #me{
 
+        filter:drop-shadow(5px 7px 7px #666666);
+    }
     .dark{
         background-color: #04091c;
     }
@@ -532,6 +539,7 @@
         height: 200px;
         width: 170px;
         animation: 2s slidein;
+        filter:drop-shadow(5px 7px 7px #181f1f);
     }
     .table{
         font-size: 20px;
@@ -798,6 +806,10 @@
         background-color: white;
         color:#04091c;
     }
+    .dark #me{
+
+        filter:drop-shadow(5px 7px 7px #666666);
+    }
     #me{
         position: absolute;
         right: 15px;
@@ -805,6 +817,7 @@
         height: 200px;
         width: 170px;
         animation: 2s slidein;
+        filter:drop-shadow(5px 7px 7px #181f1f);
     }
     .table{
         font-size: 20px;
