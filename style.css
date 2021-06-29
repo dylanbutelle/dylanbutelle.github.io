@@ -767,7 +767,10 @@
 
     .dark{
         background-color: #04091c;
+        border-right:1px solid #ffffff;
+        border-left: 1px solid #ffffff;
     }
+
     .dark #about-content{
         background-color: #04091c;
     }
