@@ -281,6 +281,40 @@
         border-top:1px solid black;
         padding-left:10px;
     }
+    #hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 10px 0 10px 0;
+    }
+    #hobbies div{
+        padding: 50px 0 50px 0;
+        text-align: center;
+        background-color: #e2edfa;
+        height: 80%;
+        width: 70%;
+        border:1px solid #181f1f;
+    }
+
+    #hobbies svg{
+        width: 100px;
+        height: 100px;
+
+    }
+
+    #content h2{
+        text-decoration: underline;
+        text-decoration-color: #a4cafe;
+        padding-left:10px;
+    }
+    .dark #hobbies svg{
+        fill:#6e7579;
+    }
+    .dark #hobbies div{
+        background-color: #252f3f;
+    }
 
 }
 
@@ -564,6 +598,38 @@
         padding-bottom: 64px;
         border-top:1px solid black;
         padding-left:10px;
+    }
+    #hobbies{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 10px 0 10px 0;
+    }
+    #hobbies div{
+        padding: 50px 0 50px 0;
+        text-align: center;
+        background-color: #e2edfa;
+        height: 100%;
+        width: 30%;
+        border:1px solid #181f1f;
+    }
+
+    #hobbies svg{
+
+        border-radius: 40px;
+    }
+
+    #content h2{
+        text-decoration: underline;
+        text-decoration-color: #a4cafe;
+        padding-left:10px;
+    }
+    .dark #hobbies svg{
+        fill:#6e7579;
+    }
+    .dark #hobbies div{
+        background-color: #252f3f;
     }
 }
 @media only screen and (min-width:1024px) {
@@ -862,7 +928,7 @@
     #hobbies div{
         padding: 50px 0 50px 0;
         text-align: center;
-        background-color: #9fa6b2;
+        background-color: #e2edfa;
         height: 100%;
         width: 30%;
         border:1px solid #181f1f;
