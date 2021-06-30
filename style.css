@@ -743,7 +743,7 @@
         background-color: #f9fafb;
         border-top: 1px solid #dee2e6;
         padding-top: 32px;
-        padding-bottom: 64px;
+        padding-bottom: 20px;
     }
 
     footer p{
@@ -852,7 +852,41 @@
         border-top:1px solid black;
         padding-left:10px;
     }
+    #hobbies{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 10px 0 10px 0;
+    }
+    #hobbies div{
+        padding: 50px 0 50px 0;
+        text-align: center;
+        background-color: #9fa6b2;
+        height: 100%;
+        width: 30%;
+        border:1px solid #181f1f;
+    }
 
+    #hobbies svg{
+
+        border-radius: 40px;
+    }
+    #hobbies svg:hover{
+        animation: 1s zoom;
+        animation-fill-mode: forwards;
+    }
+    #content h2{
+        text-decoration: underline;
+        text-decoration-color: #a4cafe;
+        padding-left:10px;
+    }
+    .dark #hobbies svg{
+        fill:#6e7579;
+    }
+    .dark #hobbies div{
+        background-color: #252f3f;
+    }
 }
 @keyframes slidein {
     from {
@@ -862,6 +896,18 @@
         right: 15px;
 
     }
+}
+@keyframes zoom {
+    from{
+        width: 150px;
+        height: 150px;
+    }
+    to{
+        width: 170px;
+        height: 170px;
+
+    }
+
 }
 
 
