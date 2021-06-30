@@ -276,6 +276,14 @@
         font-size:20px;
         text-align:center;
     }
+    #contact {
+        padding-bottom: 64px;
+        border-top:1px solid black;
+        padding-left:10px;
+    }
+    iframe{
+        width:100%;
+    }
 }
 
 
@@ -553,6 +561,11 @@
     footer p{
         font-size:20px;
         text-align:center;
+    }
+    #contact {
+        padding-bottom: 64px;
+        border-top:1px solid black;
+        padding-left:10px;
     }
 }
 @media only screen and (min-width:1024px) {
@@ -836,6 +849,12 @@
         text-align:center;
 
     }
+    #contact {
+        padding-bottom: 64px;
+        border-top:1px solid black;
+        padding-left:10px;
+    }
+
 }
 @keyframes slidein {
     from {
