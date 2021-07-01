@@ -167,12 +167,9 @@
     #about-intro-text {
         padding-bottom: 64px;
         padding-left:10px;
+
     }
 
-    #about-intro-image {
-        background-repeat: no-repeat;
-        background-position: top right;
-    }
 
     #about-content {
         background-color: #f9fafb;
@@ -798,8 +795,11 @@
     #about-intro-text {
         padding-bottom: 64px;
         padding-left:10px;
+        width: 70%;
     }
-
+    #about-intro-text p{
+        padding-left: 50px;
+    }
     #about-intro-image {
         background-repeat: no-repeat;
         background-position: top right;
