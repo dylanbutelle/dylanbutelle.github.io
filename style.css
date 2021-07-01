@@ -892,10 +892,10 @@
     }
     #me{
         position: absolute;
-        right: 15px;
+        right: 25px;
         transform: rotate(-90deg);
-        height: 200px;
-        width: 170px;
+        height: 250px;
+        width: 200px;
         animation: 2s slidein;
         filter:drop-shadow(5px 7px 7px #181f1f);
     }
@@ -959,7 +959,7 @@
         right: -200px;
     }
     to {
-        right: 15px;
+        right: 25px;
 
     }
 }
